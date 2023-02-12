@@ -4,7 +4,7 @@ if(typeof lingPost=='undefined'){window.lingPost=window.location.href.split('?')
 
 $('body').append('<div class="round3 black50 post-header-line-line"><div class="round3 black50"><div class="round3 operleypijit"><table cellspacing="0" cellpadding="0"><tbody><tr><td><div class="gambar-author"></div></td><td><div class="round3 keterangan-postingan"><div style="clear:both"></div></div></td></tr></tbody></table></div></div></div>');
 
-$('#header #HTML60 .widget-content').html('<a class="garis"></a><a href="http://'+window.location.hostname+'/" class="middle">Beranda</a><a class="garis"></a><a id="gbr-sama-nama-pesbuk" href="http://www.facebook.com/irv4n-cyber4rt" target="_blank"><span id="nama-pesbuk" class="nama-orang">Contact</span></a><a class="garis"></a><a href="http://twitter.com/@irvan_efendy" class="middle">Follow Me</a><a class="garis"></a><a href="http://blogger.com/follow-blog.g?blogID=2923384713839345134" class="middle">Join this Blog</a><a class="garis"></a><a href="http://irvan-creativity.blogspot.com/p/download-template-blog.html" class="middle">Download Template</a>');
+$('#header #HTML60 .widget-content').html('<a class="garis"></a><a href="http://'+window.location.hostname+'/" class="middle">Beranda</a><a class="garis"></a><a id="gbr-sama-nama-pesbuk" href="https://www.facebook.com/irvan.cyberArt" target="_blank"><span id="nama-pesbuk" class="nama-orang">Contact</span></a><a class="garis"></a><a href="https://www.twitter.com/irvan_efendy" class="middle">Follow Me</a><a class="garis"></a><a href="http://blogger.com/follow-blog.g?blogID=2923384713839345134" class="middle">Join this Blog</a><a class="garis"></a><a href="https://irvan-creativity.blogspot.com/p/download-template-blog.html" class="middle">Download Template</a>');
 
 $('#header #HTML66 .widget-content').html('<a class="garis"></a><a href="javascript:void(0)" onclick="bukaNavBar()" class="drop-down"></a><a class="garis"></a><a id="gbr-sama-nama-pesbuk"><a id="gbr-jancok"></a></a>');
 
@@ -310,14 +310,14 @@ function stelMusikAh(uri,judul){
   if(uri==null||uri==''){
     if(!window.mp3ArrayAing){
 window.mp3ArrayAing=[
-{"uri":"http://pelangi.faa.im/files/gustidewatamuliaraya.mp3","judul":"Bondan - Gusti Dewata Mulia Raya"},
-{"uri":"http://pelangi.faa.im/files/rt-wtwta-wild-rumpus-st.mp3","judul":"WTWTA - Wild Rumpus Start","loop":"no"}
+{"uri":"https://pelangi.faa.im/files/gustidewatamuliaraya.mp3","judul":"Bondan - Gusti Dewata Mulia Raya"},
+{"uri":"https://pelangi.faa.im/files/rt-wtwta-wild-rumpus-st.mp3","judul":"WTWTA - Wild Rumpus Start","loop":"no"}
 ];
     }
     mp3ArrayAing=mp3ArrayAing.sort(function(){return 0.5-Math.random()});
     var ke=Math.floor(Math.random()*mp3ArrayAing.length);
     if(typeof mp3ArrayAing[ke]=='undefined'){ke=0}
-    if(mp3ArrayAing[ke].uri){uri=mp3ArrayAing[ke].uri}else{uri='http://pelangi.faa.im/files/dj-pabeulit-aing-mah-te.mp3'}
+    if(mp3ArrayAing[ke].uri){uri=mp3ArrayAing[ke].uri}else{uri='https://pelangi.faa.im/files/dj-pabeulit-aing-mah-te.mp3'}
     if(mp3ArrayAing[ke].judul){judul=mp3ArrayAing[ke].judul}
   }
 var album=window.location.hostname; 
